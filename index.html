@@ -52,13 +52,39 @@
             <button data-modal-open class="button" type="button" >Заказать услугу</button>
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
-<p>
-</p>
-  <button class="button-close" data-modal-close>
-    <svg class="button-close-svg" width="30" height="30">
-        <use href="./images/symbol-defs.svg#icon-close"></use>
-    </svg>
-  </button>
+                    <button class="button-close" data-modal-close>
+                        <svg class="button-close-svg" width="30" height="30">
+                            <use href="./images/symbol-defs.svg#icon-close"></use>
+                        </svg>
+                    </button>
+<form class="form-callback">
+    <p class="form-callback">Оставьте свои данные, мы вам перезвоним</p>
+    <label class="input-label">
+        Имя
+        <input type="text" name="username"  />
+    </label>
+
+    <label class="input-label">
+         Телефон
+        <input type="tel" name="phone_number" />
+     </label>
+
+    <label class="input-label">
+        Почта
+        <input type="email" name="email" />
+    </label>
+    <label class="input-label">
+       Комментарий
+    <textarea name="comment" rows="5" placeholder="Введите текст"></textarea>
+    </label>
+
+    <label class="policy" for="policy"> <input class="policy-block" type="checkbox" name="policy" id="policy">
+  Соглашаюсь с рассылкой и принимаю <a href="#" class=""> Условия договора </a></label>
+
+    <button class="button">Отправить</button>    
+
+
+</form>
     </div>
     </div>
 </div>
@@ -414,6 +440,18 @@
 
                 </ul>
             </div>
+           <div class="footer-mailing-list">
+            <p>Подпишитеcь на рассылку</p>
+            <form class="form-mailing-list">
+                <input type="email" name="email" placeholder="E-mail"/>
+            <button class="button">Подписаться
+                        <svg class="form-mailing-svg" width="24" height="24">
+                            <use href="./images/symbol-defs-form.svg#icon-mailing-list">
+                            </use>
+                        </svg>
+            </button>
+           </div>
+            </form>
         </div>
     </div>
 </footer>

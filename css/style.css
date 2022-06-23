@@ -109,6 +109,7 @@ p {
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    padding: 40px 39px 40px 41px;
 }
 
 .button-close-svg {
@@ -704,7 +705,8 @@ p {
     margin-top: 15px;
 }
 
-.footer-social-media p {
+.footer-social-media p, 
+.footer-mailing-list p{
     color: var(--button-and-h1-color);
     text-transform: uppercase;
     font-weight: 700;
@@ -719,6 +721,11 @@ p {
     margin-right: 70px;
 }
 
+.footer-mailing-list {
+margin-top: 15px;
+margin-left: 93px;
+
+}
 
 .social-media-list-bottom:last-child {
     margin-right: 0px;
@@ -762,4 +769,39 @@ p {
 
 .social-media-svg-bottom {
     fill: currentColor;
+}
+
+.form-callback {
+display:inline-block;
+}
+
+.input-label {
+text-align: left;    
+display: flex;
+flex-direction: column;
+}
+
+.form-callback-header {
+ color:#212121;
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+margin-bottom:12px;
+}
+
+.policy {
+    display: flex;
+    flex-direction: row;
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+}
+
+.policy a {
+color:#2196F3;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
 }
