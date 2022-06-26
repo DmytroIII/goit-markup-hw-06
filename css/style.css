@@ -883,13 +883,13 @@ line-height: 1.71;
 margin-left: 3px;
 }
 
-.policy-block:checked + .form-checkbox-svg{
+.policy-block:checked + .form-checkbox-svg {
  fill:#FFFFFF;
  background-color: #2196F3;
  opacity: 1;
 }
 
-.policy-block:checked .form-checkbox-border {
+.policy-block:checked ~ .form-checkbox-border {
     opacity: 0;
 }
 
